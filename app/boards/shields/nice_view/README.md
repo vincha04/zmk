@@ -13,3 +13,9 @@ CONFIG_ZMK_DISPLAY_STATUS_SCREEN_BUILT_IN=y
 CONFIG_ZMK_LV_FONT_DEFAULT_SMALL_MONTSERRAT_26=y
 CONFIG_LV_FONT_DEFAULT_MONTSERRAT_26=y
 ```
+
+## Custom art
+
+Configuration is provided for custom art to be rendered on the peripherial device by setting `CONFIG_ZMK_DISPLAY_CUSTOM_ART=y` in `nice_view.conf`.
+
+Custom art should be put in `art.c` by creating a new `const lv_img_dsc_t custom`.
